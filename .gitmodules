@@ -1,0 +1,3 @@
+[submodule "kkt"]
+	path = themes/krueckeKontaktTheme
+	url = https://github.com/diekruecke/krueckeKontaktTheme.git
