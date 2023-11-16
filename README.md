@@ -1,14 +1,39 @@
 # cloudflare-kontakt-diekruecke-de
-hugo mod init github.com/diekruecke/cloudflare-kontakt-diekruecke-de
 
-hugo mod get -u -v joly.pw/gohugo-shorturl
-hugo mod get -u -v github.com/diekruecke/krueckeKontaktTheme
+1. Hugo Mod init
 
+    ```shell
+    hugo mod init github.com/diekruecke/cloudflare-kontakt-diekruecke-de
 
+    hugo mod get -u -v joly.pw/gohugo-shorturl
+    hugo mod get -u -v github.com/diekruecke/krueckeKontaktTheme
+    ```
 
-config/_default/module.toml
-[[imports]]
-path = "joly.pw/gohugo-shorturl"
+2. Hugo Mod init
+
+    ```shell
+    git submodule add https://github.com/cljoly/gohugo-shorturl.git themes/gohugo-shorturl
+    git submodule add https://github.com/martignoni/hugo-cloak-email.git themes/hugo-cloak-email
+    git submodule add https://github.com/diekruecke/krueckeKontaktTheme.git themes/krueckeKontaktTheme
+    ```
+
+3. config/_default/module.toml
+
+    ```shell
+    [[imports]]
+    path = "joly.pw/gohugo-shorturl"
+    ```
+
+4. Submodule deinit
+
+    ```shell
+    git submodule deinit themes/krueckeKontaktTheme
+    git rm themes/krueckeKontaktTheme
+
+    git submodule deinit themes/joly.pw/gohugo-shorturl
+    git rm themes/joly.pw/gohugo-shorturl
+    ```
+
 
 git clone https://github.com/diekruecke/krueckeKontaktTheme themes/krueckeKontaktTheme --depth=1
 
