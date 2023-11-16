@@ -40,12 +40,9 @@ copyright = "&copy; 2023 DieKruecke | [Impressum](/impressum) | [Datenschutzerkl
 [module]
   [module.hugoVersion]
     extended = true
-    min = "v0.120.3"
   
   [[module.imports]]
     path = "joly.pw/gohugo-shorturl"
-  [[module.imports]]
-    path = "github.com/diekruecke/cloudflare-kontakt-diekruecke-de"
 
 
 [markup.highlight]
