@@ -1,0 +1,3 @@
+[submodule "themes/krueckeKontaktTheme"]
+	path = themes/krueckeKontaktTheme
+	url = https://github.com/diekruecke/krueckeKontaktTheme.git
