@@ -6,6 +6,7 @@
     hugo mod init github.com/diekruecke/cloudflare-kontakt-diekruecke-de
 
     hugo mod get -u -v joly.pw/gohugo-shorturl
+    
     hugo mod get -u -v github.com/diekruecke/krueckeKontaktTheme
     ```
 
@@ -14,14 +15,17 @@
     ```shell
     git submodule add https://github.com/cljoly/gohugo-shorturl.git themes/gohugo-shorturl
     git submodule add https://github.com/martignoni/hugo-cloak-email.git themes/hugo-cloak-email
+
     git submodule add https://github.com/diekruecke/krueckeKontaktTheme.git themes/krueckeKontaktTheme
     ```
 
-3. config/_default/module.toml
+3. Für die config
 
     ```shell
-    [[imports]]
-    path = "joly.pw/gohugo-shorturl"
+    [module]
+      [[module.imports]]
+        path = "joly.pw/gohugo-shorturl"
+
     ```
 
 4. Submodule deinit
