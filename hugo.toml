@@ -2,7 +2,7 @@ baseURL = "https://kontakt.diekruecke.de/"
 languageCode = "de-DE"
 title = "DieKruecke"
 
-theme = "krueckeKontaktTheme"
+# theme = "krueckeKontaktTheme"
 # theme = [
 #   "krueckeKontaktTheme",
 #   "hugo-cloak-email",
