@@ -22,10 +22,9 @@ git submodule add https://github.com/diekruecke/krueckeKontaktTheme.git themes/k
 3. Für die config
 
 ```yaml
-[module]
-  [[module.imports]]
-    path = "joly.pw/gohugo-shorturl"
-
+module:
+  imports:
+    - path: joly.pw/gohugo-shorturl
 ```
 
 4. Submodule deinit
