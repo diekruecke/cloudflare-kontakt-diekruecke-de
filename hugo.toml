@@ -7,7 +7,7 @@ theme = "krueckeKontaktTheme"
 enableEmoji = false
 disableKinds = ["taxonomy", "term"]
 
-enableGitInfo = true
+enableGitInfo = false
 copyright = "&copy; 2023 DieKruecke | [Impressum](/impressum) | [Datenschutzerklärung](/datenschutz)"
 
 [params]
@@ -37,8 +37,8 @@ copyright = "&copy; 2023 DieKruecke | [Impressum](/impressum) | [Datenschutzerkl
     extended = true
     min = "v0.120.4"
 
-  [[module.imports]]
-    path = 'joly.pw/gohugo-shorturl'
+[[module.imports]]
+  path = 'joly.pw/gohugo-shorturl'
 
 
 [markup.highlight]
