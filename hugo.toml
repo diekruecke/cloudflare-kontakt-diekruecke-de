@@ -7,7 +7,7 @@ theme = "krueckeKontaktTheme"
 enableEmoji = false
 disableKinds = ["taxonomy", "term"]
 
-enableGitInfo = false
+enableGitInfo = true
 copyright = "&copy; 2023 DieKruecke | [Impressum](/impressum) | [Datenschutzerklärung](/datenschutz)"
 
 [params]
