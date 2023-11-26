@@ -2,11 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'de-DE'
 title = 'DieKruecke'
 
-# theme = [
-#   "krueckeKontaktTheme",
-#   "hugo-cloak-email",
-#   "gohugo-shorturl",
-# ]
+theme = "krueckeKontaktTheme"
 
 enableEmoji = false
 disableKinds = ["taxonomy", "term"]
@@ -39,7 +35,11 @@ copyright = "&copy; 2023 DieKruecke | [Impressum](/impressum) | [Datenschutzerkl
 [module]
   [module.hugoVersion]
     extended = true
-    min = "v0.119.0"
+    min = "v0.120.4"
+
+  [[module.imports]]
+    path = 'joly.pw/gohugo-shorturl'
+
 
 [markup.highlight]
   noClasses = false
