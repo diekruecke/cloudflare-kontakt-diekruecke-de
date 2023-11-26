@@ -4,11 +4,6 @@ title = "DieKruecke"
 
 theme = "krueckeKontaktTheme"
 
-# theme = [
-#   "krueckeKontaktTheme",
-#   "gohugo-shorturl",
-# ]
-
 enableEmoji = false
 disableKinds = ["taxonomy", "term"]
 
