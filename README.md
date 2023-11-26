@@ -12,7 +12,7 @@ hugo mod get -u -v github.com/diekruecke/krueckeKontaktTheme
 
 2. Hugo Mod init
 
-```shell
+```bash
 git submodule add https://github.com/cljoly/gohugo-shorturl.git themes/gohugo-shorturl
 git submodule add https://github.com/martignoni/hugo-cloak-email.git themes/hugo-cloak-email
 
@@ -21,12 +21,12 @@ git submodule add https://github.com/diekruecke/krueckeKontaktTheme.git themes/k
 
 3. Für die config
 
-    ```shell
-    [module]
-      [[module.imports]]
-        path = "joly.pw/gohugo-shorturl"
+```yaml
+[module]
+  [[module.imports]]
+    path = "joly.pw/gohugo-shorturl"
 
-    ```
+```
 
 4. Submodule deinit
 
