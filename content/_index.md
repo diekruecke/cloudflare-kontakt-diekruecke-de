@@ -6,6 +6,7 @@ draft = false
 
 {{< kontakt_button_hidden type="hiddenemail" href="info@diekruecke.de" text="E-Mail" >}}
 {{< kontakt_button_hidden type="hiddenemail" href="buchhaltung@diekruecke.de" text="Buchhaltung" >}}
+{{< kontakt_button_hidden type="hiddenphone" protocol="tel" href="+4917684484067" text="Mobile" >}}
 {{< kontakt_button type="whatsapp" href="/l/wa" text="Whatsapp" >}}
 {{< kontakt_button type="instagram" href="/l/insta" text="Instagram" >}}
 {{< kontakt_button type="vcard" href="/vcard/robin_schroeter.vcf" text="Kontakt Speichern" >}}
