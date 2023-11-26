@@ -2,40 +2,37 @@
 
 1. Hugo Mod init
 
-```shell
-hugo mod init github.com/diekruecke/cloudflare-kontakt-diekruecke-de
+  ```shell
+  hugo mod init github.com/diekruecke/cloudflare-kontakt-diekruecke-de
 
-hugo mod get -u -v joly.pw/gohugo-shorturl
+  hugo mod get -u -v joly.pw/gohugo-shorturl
+  ```
 
-hugo mod get -u -v github.com/diekruecke/krueckeKontaktTheme
-```
+2. Git Submodule init
 
-2. Hugo Mod init
+  ```bash
+  git submodule add https://github.com/diekruecke/krueckeKontaktTheme themes/krueckeKontaktTheme
+  ```
 
-```bash
-git submodule add https://github.com/cljoly/gohugo-shorturl.git themes/gohugo-shorturl
-git submodule add https://github.com/martignoni/hugo-cloak-email.git themes/hugo-cloak-email
+3. Config Erweiterungen
 
-git submodule add https://github.com/diekruecke/krueckeKontaktTheme.git themes/krueckeKontaktTheme
-```
+  ```yaml
+  module:
+    imports:
+      - path: joly.pw/gohugo-shorturl
+  ```
 
-3. Für die config
+4. Git Submodule Updaten
 
-```yaml
-module:
-  imports:
-    - path: joly.pw/gohugo-shorturl
-```
+  ```shell
+  git submodule update --init --recursive
+  ```
 
-4. Submodule deinit
+4. Git Submodule deinit
 
-    ```shell
-    git submodule deinit themes/krueckeKontaktTheme
-    git rm themes/krueckeKontaktTheme
-
-    git submodule deinit themes/joly.pw/gohugo-shorturl
-    git rm themes/joly.pw/gohugo-shorturl
-    ```
+  ```shell
+  git submodule deinit themes/krueckeKontaktTheme
+  git rm themes/krueckeKontaktTheme
+  ```
 
 
-git submodule update --init --recursive
