@@ -10,11 +10,15 @@ disableKinds = ["taxonomy", "term"]
 enableGitInfo = true
 copyright = "&copy; 2023 DieKruecke | [Impressum](/impressum) | [Datenschutzerklärung](/datenschutz)"
 
+buildDrafts = false
+
 [params]
   image = "author.jpg"
   name = "Robin Schröter"
   subtitle = "Tontechnik | Touring | Projektleitung"
   socialmedia_hinweis = "SocialMedia wird nicht aktiv genutzt"
+
+  template_hinweis = ""
 
 [params.style]
   primary= "#2563eb"
