@@ -10,6 +10,7 @@ disableKinds = ["taxonomy", "term"]
 enableGitInfo = true
 copyright = "&copy; 2023 DieKruecke | [Impressum](/impressum) | [Datenschutzerklärung](/datenschutz)"
 
+# set to false
 buildDrafts = false
 
 [params]
@@ -18,7 +19,8 @@ buildDrafts = false
   subtitle = "Tontechnik | Touring | Projektleitung"
   socialmedia_hinweis = "SocialMedia wird nicht aktiv genutzt"
 
-  template_hinweis = ""
+  # change to false
+  template_hinweis = false
 
 [params.style]
   primary= "#2563eb"
