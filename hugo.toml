@@ -2,7 +2,7 @@ baseURL = 'https://kontakt.diekruecke.de/'
 languageCode = 'de-DE'
 title = 'DieKruecke'
 
-theme = "krueckeKontaktTheme"
+# theme = "krueckeKontaktTheme"
 
 enableEmoji = false
 disableKinds = ["taxonomy", "term"]
@@ -45,6 +45,8 @@ buildDrafts = false
 
 [[module.imports]]
   path = 'joly.pw/gohugo-shorturl'
+[[module.imports]]
+  path = "github.com/diekruecke/krueckeKontaktTheme"
 
 
 [markup.highlight]
