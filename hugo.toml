@@ -29,7 +29,11 @@ buildDrafts = false
 [params.plausible]
   enable = true
   domain = "kontakt.diekruecke.de"
+  # selfhosted_domain = "myplausible.example.com"
   gitstar = false
+  outbound_link = true
+  file_downloads = true
+  file_downloads_types = ".vcf"
 
   neutral_50= "#fafafa"
   neutral_100= "#f5f5f5"
