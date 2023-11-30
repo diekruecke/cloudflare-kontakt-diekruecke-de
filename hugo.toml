@@ -33,7 +33,7 @@ buildDrafts = false
   gitstar = false
   outbound_link = true
   file_downloads = true
-  file_downloads_types = ".vcf"
+  file_downloads_types = "vcf"
 
   neutral_50= "#fafafa"
   neutral_100= "#f5f5f5"
