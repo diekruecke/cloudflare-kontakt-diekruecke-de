@@ -7,8 +7,10 @@ title = 'DieKruecke'
 enableEmoji = false
 disableKinds = ["taxonomy", "term"]
 
+enableRobotsTXT = true
+
 enableGitInfo = true
-copyright = "&copy; 2024 DieKruecke | [AGB](/diekruecke-agb.pdf) | [Impressum](/impressum) | [Datenschutzerklärung](/datenschutz)"
+copyright = "&copy; 2025 DieKruecke | [AGB](/diekruecke-agb.pdf) | [Impressum](/impressum) | [Datenschutzerklärung](/datenschutz)"
 
 # set to false
 buildDrafts = false
@@ -18,6 +20,7 @@ buildDrafts = false
   name = "Robin Schröter"
   subtitle = "Tontechnik | Touring | Projektleitung"
   socialmedia_hinweis = "SocialMedia wird nicht aktiv genutzt"
+  description = "DieKruecke – professionelle Veranstaltungstechnik, Touring und Projektleitung für Events jeder Größe. Zuverlässig, erfahren und individuell – jetzt Kontakt aufnehmen!"
 
   # change to false
   template_hinweis = false
@@ -50,7 +53,7 @@ buildDrafts = false
 [module]
   [module.hugoVersion]
     extended = true
-    min = "v0.120.4"
+    min = "v0.148.1"
 
 [[module.imports]]
   path = 'joly.pw/gohugo-shorturl'
