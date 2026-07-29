@@ -53,3 +53,5 @@ Thumbs.db
 # VS Code
 # /.vscode/**
 # !/.vscode/cspell.json
+
+devcontainer-lock.json
