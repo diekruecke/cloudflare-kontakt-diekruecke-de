@@ -2,7 +2,7 @@ baseURL = 'https://kontakt.diekruecke.de/'
 languageCode = 'de-DE'
 title = 'DieKruecke'
 
-# theme = "krueckeKontaktTheme"
+theme = "krueckeKontaktTheme"
 
 enableEmoji = false
 disableKinds = ["taxonomy", "term"]
