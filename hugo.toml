@@ -28,6 +28,7 @@ buildDrafts = false
   [params.services]
     [params.services.umami_analytics]
       id = 'b8ebfffc-df29-4dc5-9662-e8db835763d2'
+      script_url = 'https://umami.diekruecke.cloud/data.js'
 
 [params.style]
   primary= "#2563eb"
